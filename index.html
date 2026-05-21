@@ -3,100 +3,113 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>忠孝復興／忠孝敦化 600m 租屋總覽</title>
+<title>忠孝復興 / 忠孝敦化 600m 租屋總覽</title>
 <style>
-  :root{color-scheme:light dark;}
+  :root{ --bg:#f5f6f8; --card:#fff; --txt:#222; --sub:#666; --accent:#c0392b; --tag:#eef2f7; }
   *{box-sizing:border-box;}
-  body{margin:0;font-family:-apple-system,"Segoe UI","PingFang TC","Microsoft JhengHei",sans-serif;background:#f5f6f8;color:#1a1a1a;}
-  header{padding:20px 16px;background:#1f6feb;color:#fff;}
-  header h1{margin:0;font-size:20px;}
-  header p{margin:6px 0 0;font-size:13px;opacity:.9;}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;padding:16px;max-width:1200px;margin:0 auto;}
-  .card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.12);display:flex;flex-direction:column;}
-  .card img{width:100%;height:190px;object-fit:cover;background:#ddd;}
-  .card .body{padding:12px 14px;display:flex;flex-direction:column;gap:6px;}
-  .card .title{font-size:15px;font-weight:600;line-height:1.4;color:#1f6feb;text-decoration:none;}
-  .card .title:hover{text-decoration:underline;}
-  .meta{font-size:13px;color:#444;line-height:1.5;}
+  body{margin:0;font-family:-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;background:var(--bg);color:var(--txt);}
+  header{padding:18px 16px;background:#2c3e50;color:#fff;}
+  header h1{margin:0;font-size:18px;}
+  header p{margin:6px 0 0;font-size:13px;color:#cfd8e3;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;padding:16px;max-width:1200px;margin:0 auto;}
+  .card{background:var(--card);border-radius:12px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.1);display:flex;flex-direction:column;}
+  .card img{width:100%;height:190px;object-fit:cover;display:block;background:#ddd;}
+  .body{padding:12px 14px;display:flex;flex-direction:column;gap:6px;}
+  .title{font-size:15px;font-weight:700;line-height:1.35;color:var(--txt);text-decoration:none;}
+  .title:hover{color:var(--accent);}
+  .price{font-size:18px;font-weight:800;color:var(--accent);}
   .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px;}
-  .tag{font-size:12px;background:#eef3ff;color:#1f6feb;border-radius:6px;padding:2px 8px;}
-  .price{font-size:18px;font-weight:700;color:#e8590c;margin-top:4px;}
-  .dist{font-size:12px;background:#fff3e0;color:#e8590c;border-radius:6px;padding:2px 8px;}
-  footer{text-align:center;font-size:12px;color:#888;padding:24px 16px;}
+  .tag{background:var(--tag);color:#34495e;font-size:12px;padding:3px 8px;border-radius:6px;}
+  .addr{font-size:13px;color:var(--sub);}
+  .dist{font-size:13px;color:#2c7a3f;font-weight:600;}
+  footer{padding:16px;text-align:center;font-size:12px;color:var(--sub);}
 </style>
 </head>
 <body>
 <header>
-  <h1>忠孝復興／忠孝敦化 600m 內租屋總覽</h1>
-  <p>條件：整層住家／獨立套房・租金 25,000–33,000・距站 ≤ 600m｜最後更新 2026-05-21</p>
+  <h1>忠孝復興 / 忠孝敦化 600m 租屋總覽</h1>
+  <p>整層住家 · 獨立套房｜租金 25,000–33,000｜距站 ≤ 600m｜更新：2026-05-21</p>
 </header>
-<div class="grid">
-  <!-- CARDS_START -->
+<div class="grid" id="grid">
+
   <div class="card">
-    <img src="https://img2.591.com.tw/house/2026/05/20/177929269465172408.jpg!730x460.water2.jpg" alt="">
+    <img src="https://img1.591.com.tw/house/2026/05/20/177929269465172408.jpg!730x460.water2.jpg" alt="">
     <div class="body">
-      <a class="title" href="https://rent.591.com.tw/21297493" target="_blank" rel="noopener">📍忠孝復興出站即抵！黃金地段稀有釋出💎多元用途可報稅✅</a>
-      <div class="tags"><span class="tag">獨立套房</span><span class="tag">8.6坪</span><span class="dist">距忠孝復興 135m</span></div>
-      <div class="meta">大安區-忠孝東路四段49巷4弄</div>
+      <a class="title" href="https://rent.591.com.tw/21297493" target="_blank">📍忠孝復興出站即抵！黃金地段稀有釋出</a>
       <div class="price">32,000 元/月</div>
+      <div class="tags"><span class="tag">獨立套房</span><span class="tag">8.6 坪</span></div>
+      <div class="dist">距忠孝復興站 135m</div>
+      <div class="addr">大安區・忠孝東路四段49巷4弄</div>
     </div>
   </div>
+
   <div class="card">
-    <img src="https://img1.591.com.tw/house/2026/05/15/177883768161413607.jpg!730x460.water2.jpg" alt="">
+    <img src="https://img2.591.com.tw/house/2026/05/15/177883768161413607.jpg!730x460.water2.jpg" alt="">
     <div class="body">
-      <a class="title" href="https://rent.591.com.tw/21265831" target="_blank" rel="noopener">👑忠孝復興站💖可租補💖代收垃圾💖工作室💖邊間採光</a>
-      <div class="tags"><span class="tag">整層住家</span><span class="tag">1房1廳</span><span class="tag">14.6坪</span><span class="dist">距忠孝復興 289m</span></div>
-      <div class="meta">大安區-大安路一段</div>
+      <a class="title" href="https://rent.591.com.tw/21265831" target="_blank">👑忠孝復興站・可租補・代收垃圾・工作室・邊間採光</a>
       <div class="price">27,999 元/月</div>
+      <div class="tags"><span class="tag">整層住家</span><span class="tag">1房1廳</span><span class="tag">14.6 坪</span></div>
+      <div class="dist">距忠孝復興站 289m</div>
+      <div class="addr">大安區・大安路一段</div>
     </div>
   </div>
+
   <div class="card">
-    <img src="https://img2.591.com.tw/house/2026/05/05/177797264976715906.jpg!730x460.water2.jpg" alt="">
+    <img src="https://img1.591.com.tw/house/2026/05/05/177797264976715906.jpg!730x460.water2.jpg" alt="">
     <div class="body">
-      <a class="title" href="https://rent.591.com.tw/21275304" target="_blank" rel="noopener">👑忠孝敦化站1分鐘💖住辦皆宜💖挑高3.6M💖可寵</a>
-      <div class="tags"><span class="tag">獨立套房</span><span class="tag">8.1坪</span><span class="dist">距忠孝敦化 289m</span></div>
-      <div class="meta">大安區-敦化南路一段</div>
+      <a class="title" href="https://rent.591.com.tw/21275304" target="_blank">👑忠孝敦化站1分鐘・住辦皆宜・挑高3.6M・可寵</a>
       <div class="price">32,999 元/月</div>
+      <div class="tags"><span class="tag">獨立套房</span><span class="tag">8.1 坪</span></div>
+      <div class="dist">距忠孝敦化站 289m</div>
+      <div class="addr">大安區・敦化南路一段</div>
     </div>
   </div>
+
   <div class="card">
-    <img src="https://img2.591.com.tw/house/2026/04/30/177753465446859908.jpg!730x460.water2.jpg" alt="">
+    <img src="https://img1.591.com.tw/house/2026/04/30/177753465446859908.jpg!730x460.water2.jpg" alt="">
     <div class="body">
-      <a class="title" href="https://rent.591.com.tw/21184626" target="_blank" rel="noopener">美樂*大安*忠孝復興MRT*東區商圈*可貓*採光好*機能佳</a>
-      <div class="tags"><span class="tag">獨立套房</span><span class="tag">7.9坪</span><span class="dist">距忠孝復興 411m</span></div>
-      <div class="meta">大安區-復興南路一段79巷</div>
+      <a class="title" href="https://rent.591.com.tw/21184626" target="_blank">美樂・大安・忠孝復興MRT・東區商圈・可貓</a>
       <div class="price">25,000 元/月</div>
+      <div class="tags"><span class="tag">獨立套房</span><span class="tag">7.9 坪</span></div>
+      <div class="dist">距忠孝復興站 411m</div>
+      <div class="addr">大安區・復興南路一段79巷</div>
     </div>
   </div>
+
   <div class="card">
     <img src="https://img1.591.com.tw/house/2026/01/09/176796031845095404.jpg!730x460.water2.jpg" alt="">
     <div class="body">
-      <a class="title" href="https://rent.591.com.tw/21291735" target="_blank" rel="noopener">忠孝復興店／新整修大套房／垃圾代收／可貓</a>
-      <div class="tags"><span class="tag">獨立套房</span><span class="tag">8坪</span><span class="dist">距忠孝復興 278m</span></div>
-      <div class="meta">大安區-復興南路一段79巷</div>
+      <a class="title" href="https://rent.591.com.tw/21291735" target="_blank">忠孝復興店・新整修大套房・垃圾代收・可貓</a>
       <div class="price">25,000 元/月</div>
+      <div class="tags"><span class="tag">獨立套房</span><span class="tag">8 坪</span></div>
+      <div class="dist">距忠孝復興站 278m</div>
+      <div class="addr">大安區・復興南路一段79巷</div>
     </div>
   </div>
+
   <div class="card">
-    <img src="https://img2.591.com.tw/house/2024/05/22/171634370559556106.jpg!730x460.water2.jpg" alt="">
+    <img src="https://img1.591.com.tw/house/2024/05/22/171634370559556106.jpg!730x460.water2.jpg" alt="">
     <div class="body">
-      <a class="title" href="https://rent.591.com.tw/21297954" target="_blank" rel="noopener">(屋主直租，整)生活機能忒佳,可開伙~松山文創生活圈近在咫尺</a>
-      <div class="tags"><span class="tag">整層住家</span><span class="tag">1房1廳</span><span class="tag">12坪</span><span class="dist">距忠孝敦化 313m</span></div>
-      <div class="meta">大安區-忠孝東路四段181巷</div>
+      <a class="title" href="https://rent.591.com.tw/21297954" target="_blank">(屋主直租) 生活機能忒佳・松山文創生活圈近在咫尺</a>
       <div class="price">28,000 元/月</div>
+      <div class="tags"><span class="tag">整層住家</span><span class="tag">1房1廳</span><span class="tag">12 坪</span></div>
+      <div class="dist">距忠孝敦化站 313m</div>
+      <div class="addr">大安區・忠孝東路四段181巷</div>
     </div>
   </div>
+
   <div class="card">
     <img src="https://img2.591.com.tw/house/2026/05/20/177926485059188309.jpg!730x460.water2.jpg" alt="">
     <div class="body">
-      <a class="title" href="https://rent.591.com.tw/21294908" target="_blank" rel="noopener">🍀MRT國父紀念館~東區/大巨蛋商圈~挑高景觀🧡小花園</a>
-      <div class="tags"><span class="tag">整層住家</span><span class="tag">1房2廳</span><span class="tag">12坪</span><span class="dist">距忠孝敦化 585m</span></div>
-      <div class="meta">大安區-光復南路</div>
+      <a class="title" href="https://rent.591.com.tw/21294908" target="_blank">🍀MRT國父紀念館・東區/大巨蛋商圈・挑高景觀・小花園</a>
       <div class="price">28,000 元/月</div>
+      <div class="tags"><span class="tag">整層住家</span><span class="tag">1房2廳</span><span class="tag">12 坪</span></div>
+      <div class="dist">距忠孝敦化站 585m</div>
+      <div class="addr">大安區・光復南路</div>
     </div>
   </div>
-  <!-- CARDS_END -->
+
 </div>
-<footer>資料來源：591 租屋網・自動彙整僅供參考，實際以 591 物件頁為準。</footer>
+<footer>資料來源：591 租屋網｜本頁為自動化追蹤產生</footer>
 </body>
 </html>
